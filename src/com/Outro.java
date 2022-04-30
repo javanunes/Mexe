@@ -42,6 +42,7 @@ public class Outro {
               Robot ro = new Robot();
               ro.mouseMove(2000, 222);
               ro.mousePress(InputEvent.BUTTON1_DOWN_MASK);
+              ro.mouseRelease(InputEvent.BUTTON1_DOWN_MASK);
           } catch (AWTException ex) {
               Logger.getLogger(Outro.class.getName()).log(Level.SEVERE, null, ex);
           }
